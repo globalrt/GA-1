@@ -31,11 +31,12 @@ void set_spec(){
     fin.open("/Users/JIBA/Documents/0-1Knapsack/0-1Knapsack/TestData(0-1Knapsack).txt");
     
     string line;
-    if (fin.is_open()) {
+    if (fin.is_open()) {    
         for (int i=0; i<5; i++) {
             getline(fin,line);
         }
         int i=0;
+        int test;
         while (fin>>i>>weight_array[i-1]>>profit_array[i-1]) {
         }
     }
